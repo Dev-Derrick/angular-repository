@@ -8,6 +8,7 @@ import { WebMenuComponent } from './web-menu/web-menu.component';
 import { WebMainComponent } from './web-main/web-main.component';
 import { BlogPostComponent } from './web-main/blog-post/blog-post.component';
 import { FeaturedBlogComponent } from './web-main/featured-blog/featured-blog.component';
+import { MyOwnComponent } from './my-own/my-own.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FeaturedBlogComponent } from './web-main/featured-blog/featured-blog.co
     WebMenuComponent,
     WebMainComponent,
     BlogPostComponent,
-    FeaturedBlogComponent
+    FeaturedBlogComponent,
+    MyOwnComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+<div class="dropdown mt-3" #dv>
+    <a class="btn btn-secondary dropdown-toggle" [ngClass]="{show : isSh}" href="#" role="button" id="dropdownMenuLink"
+    data-bs-toggle="dropdown" aria-expanded="false" (click)="onDropdownClicked()">Dropdown Link
+    </a>
+
+    <ul class="dropdown-menu" [ngClass]="{show : isSh}" aria-labelledby="dropdownMenuLink">
+        <li><a class="dropdown-item" (click)=onItemClick(1)>Cut</a></li>
+        <li><a class="dropdown-item" (click)=onItemClick(2)>Copy</a></li>
+        <li><a class="dropdown-item" (click)=onItemClick(3)>Paste</a></li>
+    </ul>
+
+    <input type="text" value="ieughiwuef" #nm>
+    <input type="button" value="Okay" (click)="onBtn(nm)" #btn>
+    <ng-content></ng-content>
+    </div>
